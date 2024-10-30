@@ -7083,71 +7083,71 @@ void Nwt7MainClass::resizeWidgets(){
 
   //Frequency set group
   gbSweep->setGeometry(spalte2+20, 10, 220, 185);
-  editanfang->setGeometry(110, 15 + i*abstand,100,20);
-  labelanfang->setGeometry(5, 17 + i*abstand,100,20);
+  editanfang->setGeometry(110, 23 + i*abstand,100,20);
+  labelanfang->setGeometry(5, 25 + i*abstand,100,20);
   labelanfang->setAlignment(Qt::AlignRight);
   i++;
-  editende->setGeometry(110, 15 + i*abstand,100,20);
-  labelende->setGeometry(5, 17 + i*abstand, 100, 20);
+  editende->setGeometry(110, 23 + i*abstand,100,20);
+  labelende->setGeometry(5, 25 + i*abstand, 100, 20);
   labelende->setAlignment(Qt::AlignRight);
   i++;
-  editschrittweite->setGeometry(130, 15 + i*abstand,80,20);
-  labelschrittweite->setGeometry(5, 17 + i*abstand, 120, 20);
+  editschrittweite->setGeometry(130, 23 + i*abstand,80,20);
+  labelschrittweite->setGeometry(5, 25 + i*abstand, 120, 20);
   labelschrittweite->setAlignment(Qt::AlignRight);
   i++;
-  editschritte->setGeometry(130, 15 + i*abstand,80,20);
-  labelschritte->setGeometry(5, 17 + i*abstand, 120, 20);
+  editschritte->setGeometry(130, 23 + i*abstand,80,20);
+  labelschritte->setGeometry(5, 25 + i*abstand, 120, 20);
   labelschritte->setAlignment(Qt::AlignRight);
   i++;
-  boxzwischenzeit->setGeometry(130, 15 + i*abstand,80,20);
-  labelzwischenzeit->setGeometry(5, 17 + i*abstand, 120, 20);
+  boxzwischenzeit->setGeometry(130, 23 + i*abstand,80,20);
+  labelzwischenzeit->setGeometry(5, 25 + i*abstand, 120, 20);
   labelzwischenzeit->setAlignment(Qt::AlignRight);
 //  checkboxtime->setGeometry(5, 15 + i*abstand, 150, 20);
   i++;
-  editdisplay->setGeometry(130, 15 + i*abstand,80,20);
-  labeldisplayshift->setGeometry(5, 17 + i*abstand, 120, 20);
+  editdisplay->setGeometry(130, 23 + i*abstand,80,20);
+  labeldisplayshift->setGeometry(5, 25 + i*abstand, 120, 20);
   labeldisplayshift->setAlignment(Qt::AlignRight);
   i++;
-  boxprofil->setGeometry(80, 15 + i*abstand,130,20);
-  labelprofil->setGeometry(5, 17 + i*abstand, 70, 20);
+  boxprofil->setGeometry(80, 23 + i*abstand,130,20);
+  labelprofil->setGeometry(5, 25 + i*abstand, 70, 20);
   labelprofil->setAlignment(Qt::AlignRight);
   i++;
-  labelfrqfaktor->setGeometry(5, 17 + i*abstand, 190, 20);
+  labelfrqfaktor->setGeometry(5, 22 + i*abstand, 190, 20);
   labelfrqfaktor->setAlignment(Qt::AlignRight);
 
   //ATT group
-  gbAttenuator->setGeometry(spalte2+20, 200, 220, 40);
-  cbAttenuator1->setGeometry(130, 15,80,20);
-  labeldaempfung->setGeometry(5, 17, 110, 20);
+  gbAttenuator->setGeometry(spalte2+20, 200, 220, 45);
+  cbAttenuator1->setGeometry(130, 22, 80,20);
+  labeldaempfung->setGeometry(5, 25, 110, 20);
   labeldaempfung->setAlignment(Qt::AlignRight);
 
   //Operate mode group
   gbOperatedStart->setGeometry(spalte2+20, 245, 220, 105);
   i=0;
-  cbOperatedMode->setGeometry(80, 15 + i*abstand, 130, 20);
-  labelbetriebsart->setGeometry(5, 18 + i*abstand,70, 20);
+  cbOperatedMode->setGeometry(80, 23 + i*abstand, 130, 20);
+  labelbetriebsart->setGeometry(5, 25 + i*abstand,70, 20);
   labelbetriebsart->setAlignment(Qt::AlignRight);
   i++;
-  kalibrier1->setGeometry(5, 18 + i*abstand, 200, 20);
+  kalibrier1->setGeometry(5, 23 + i*abstand, 200, 20);
   kalibrier1->setLayoutDirection(Qt::RightToLeft);
-  cbResolutionSWR->setGeometry(100, 15 + i*abstand, 110, 20);
-  labelaufloesung->setGeometry(5, 18 + i*abstand, 90, 20);
+  cbResolutionSWR->setGeometry(100, 23 + i*abstand, 110, 20);
+  labelaufloesung->setGeometry(5, 25 + i*abstand, 90, 20);
   labelaufloesung->setAlignment(Qt::AlignRight);
 
-  groupsa->setGeometry(30, 15 + i*abstand, 170, 60);
-  labelsafrqbereich->setGeometry(10, 15, 160, 20);
-  sabereich1->setGeometry(10, 15, 160, 20);
+  groupsa->setGeometry(30, 23 + i*abstand, 170, 60);
+  labelsafrqbereich->setGeometry(10, 23, 160, 20);
+  sabereich1->setGeometry(10, 23, 160, 20);
   labelsabandbreite->setGeometry(10, 35, 160, 20);
   sabereich2->setGeometry(10, 35, 160, 20);
   i++;
-  kalibrier2->setGeometry(5, 18 + i*abstand, 200, 20);
+  kalibrier2->setGeometry(5, 25 + i*abstand, 200, 20);
   kalibrier2->setLayoutDirection(Qt::RightToLeft);
-  labela_100->setGeometry(5, 18 + i*abstand, 110, 20);
-  edita_100->setGeometry(120, 15 + i*abstand, 90, 20);
+  labela_100->setGeometry(5, 25 + i*abstand, 110, 20);
+  edita_100->setGeometry(120, 23 + i*abstand, 90, 20);
   labela_100->setAlignment(Qt::AlignRight);
   i++;
-  labelkabellaenge->setGeometry(5, 18 + i*abstand, 110, 20);
-  editkabellaenge->setGeometry(120, 15 + i*abstand, 90, 20);
+  labelkabellaenge->setGeometry(5, 25 + i*abstand, 110, 20);
+  editkabellaenge->setGeometry(120, 23 + i*abstand, 90, 20);
   labelkabellaenge->setAlignment(Qt::AlignRight);
 
   //  labelprogressbar->setAlignment(Qt::AlignRight);
@@ -7171,11 +7171,11 @@ void Nwt7MainClass::resizeWidgets(){
 
   //Zoom display group
   gbZoom->setGeometry(spalte3, 111,230,48);
-  labellupe->setGeometry(5, 24, 95, 20);
+  labellupe->setGeometry(5, 28, 95, 20);
   labellupe->setAlignment(Qt::AlignRight);
-  buttonlupeplus->setGeometry(110, 15, 30, 30);
-  buttonlupeminus->setGeometry(140, 15, 30, 30);
-  buttonlupemitte->setGeometry(170, 15, 30, 30);
+  buttonlupeplus->setGeometry(110, 18, 30, 30);
+  buttonlupeminus->setGeometry(140, 18, 30, 30);
+  buttonlupemitte->setGeometry(170, 18, 30, 30);
 
   //Probe Profile select
   groupkanal->setGeometry(spalte3, 160, 230, 58);
